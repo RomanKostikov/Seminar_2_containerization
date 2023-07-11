@@ -1,0 +1,23 @@
+# Network configuration(test1)
+
+lxc.net.0.type = veth
+
+lxc.net.0.link = lxcbr0
+
+lxc.net.0.flags = up
+
+lxc.net.0.hwaddr = 00:16:3e:66:ea:9b
+
+lxc.net.0.ipv4.address = 10.0.0.10/24
+
+# Network configuration(test2)
+
+lxc.net.0.type = veth
+
+lxc.net.0.link = lxcbr0
+
+lxc.net.0.flags = up
+
+lxc.net.0.hwaddr = 00:16:3e:58:29:ff
+
+lxc.net.0.ipv4.address = 10.0.0.20/24
